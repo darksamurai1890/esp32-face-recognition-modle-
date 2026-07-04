@@ -22,27 +22,3 @@ pip install opencv-python numpy pyserial dlib
 sudo ./face_env/bin/python app.py
 ---
 
-### 🚀 3. Initialize Git and Push to GitHub
-
-Go to [GitHub.com](https://github.com), log into your account, click the **New** repository button, name it, and leave it completely blank (do **not** check the boxes to initialize with a README or .gitignore, as we just made them locally). 
-
-Once created, copy the repository URL (e.g., `https://github.com/your-username/your-repo-name.git`) and execute these terminal commands inside your project folder:
-
-```bash
-# 1. Initialize your local directory as a Git repository
-git init
-
-# 2. Stage all your project files (this skips 'face_env' automatically via your .gitignore)
-git add .
-
-# 3. Create your initial codebase snapshot commit
-git commit -m "Initial commit: Core Ubuntu face recognition with native USB serial architecture"
-
-# 4. Set the default deployment branch name to main
-git branch -M main
-
-# 5. Link your local project folder to your remote GitHub repository url
-git remote add origin https://github.com/your-username/your-repo-name.git
-
-# 6. Push your files securely to the cloud
-git push -u origin main
