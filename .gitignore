@@ -1,0 +1,12 @@
+# Local virtual environments
+face_env/
+venv/
+.venv/
+
+# Python caching rules
+__pycache__/
+*.pyc
+
+# Operating system tracking files
+.DS_Store
+Thumbs.db
